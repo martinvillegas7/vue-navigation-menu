@@ -1,12 +1,19 @@
 <template>
   <div class="app">
+    <Navigation />
+
     <router-view />
   </div>
 </template>
 
 <script>
+import Navigation from './components/Navigation.vue';
+
 export default {
   name: "App",
+  components: {
+    Navigation,
+  }
 };
 </script>
 
@@ -24,6 +31,7 @@ export default {
   position: relative;
   background-color: #f1f1f1;
 }
+
 .container {
   padding: 0 20px;
   max-width: 1140px;
