@@ -1,7 +1,7 @@
 <template>
   <div class="home">
     <section class="hero">
-      <div class="hero-text container">
+      <div class=" hero-text container">
         <h4>Vue Responsive Nav Menu</h4>
         <hr />
         <h2>
@@ -93,7 +93,7 @@ export default {
 
 <style lang="scss" scoped>
 .hero {
-  background-image: url("../assets/hero-bg.png");
+  // background-image: url("../assets/hero-bg.png");
   background-attachment: fixed;
   position: relative;
   height: 100vh;
@@ -109,7 +109,7 @@ export default {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    color: #fff;
+    color: black;
 
     h4 {
       text-transform: uppercase;
@@ -132,7 +132,7 @@ export default {
 
     hr:nth-child(4) {
       height: 6px;
-      background-color: #fff;
+      background-color: black;
       border: none;
       max-width: 85px;
       margin-top: 16px;
